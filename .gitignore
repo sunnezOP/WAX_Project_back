@@ -1,0 +1,6 @@
+game/CMakeLists.txt
+game/src/CMakeLists.txt
+game/ricardian
+game/cmake-build-debug
+game/README.txt
+game/.idea

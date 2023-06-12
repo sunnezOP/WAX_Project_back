@@ -1,0 +1,629 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "account_entity",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "pickaxe",
+                    "type": "uint16"
+                },
+                {
+                    "name": "drill",
+                    "type": "uint16"
+                },
+                {
+                    "name": "mine_machine",
+                    "type": "uint16"
+                },
+                {
+                    "name": "ics",
+                    "type": "asset"
+                },
+                {
+                    "name": "ici",
+                    "type": "asset"
+                },
+                {
+                    "name": "icg",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "craft",
+            "base": "",
+            "fields": [
+                {
+                    "name": "schema_name",
+                    "type": "name"
+                },
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "new_asset_owner",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "delreguserst",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "delstaket",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "deluserstate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "farm",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "assets_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "fullrepair",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "rallstuckcon",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "ralltokencon",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "ralltoolconf",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "randtest",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "regnewuser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "rstuckconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "rtokenconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "rtoolconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "setstuckconf",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "initial",
+                    "type": "uint8"
+                },
+                {
+                    "name": "increase",
+                    "type": "uint8"
+                },
+                {
+                    "name": "time_hours",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "settokenconf",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint8"
+                },
+                {
+                    "name": "token",
+                    "type": "string"
+                },
+                {
+                    "name": "fee",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "settoolconf",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "ics_repair",
+                    "type": "asset"
+                },
+                {
+                    "name": "ici_repair",
+                    "type": "asset"
+                },
+                {
+                    "name": "icg_repair",
+                    "type": "asset"
+                },
+                {
+                    "name": "mine",
+                    "type": "asset"
+                },
+                {
+                    "name": "ics_craft",
+                    "type": "asset"
+                },
+                {
+                    "name": "ici_craft",
+                    "type": "asset"
+                },
+                {
+                    "name": "icg_craft",
+                    "type": "asset"
+                },
+                {
+                    "name": "uses",
+                    "type": "uint8"
+                },
+                {
+                    "name": "duration",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "stake_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "uses",
+                    "type": "uint8"
+                },
+                {
+                    "name": "availability",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "stuckconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "initial",
+                    "type": "uint8"
+                },
+                {
+                    "name": "increase",
+                    "type": "uint8"
+                },
+                {
+                    "name": "time_hours",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "stucktool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "chance",
+                    "type": "uint8"
+                },
+                {
+                    "name": "initial",
+                    "type": "uint8"
+                },
+                {
+                    "name": "increase",
+                    "type": "uint8"
+                },
+                {
+                    "name": "time_hours",
+                    "type": "uint8"
+                },
+                {
+                    "name": "time",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "availability",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "tokenconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint8"
+                },
+                {
+                    "name": "token",
+                    "type": "string"
+                },
+                {
+                    "name": "fee",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "toolconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "ics_repair",
+                    "type": "asset"
+                },
+                {
+                    "name": "ici_repair",
+                    "type": "asset"
+                },
+                {
+                    "name": "icg_repair",
+                    "type": "asset"
+                },
+                {
+                    "name": "mine",
+                    "type": "asset"
+                },
+                {
+                    "name": "ics_craft",
+                    "type": "asset"
+                },
+                {
+                    "name": "ici_craft",
+                    "type": "asset"
+                },
+                {
+                    "name": "icg_craft",
+                    "type": "asset"
+                },
+                {
+                    "name": "uses",
+                    "type": "uint8"
+                },
+                {
+                    "name": "duration",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "unfarm",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "assets_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "userstate_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "type",
+                    "type": "uint8"
+                },
+                {
+                    "name": "assets_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "time",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "withdraw",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "withdrawtool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "assets_id",
+                    "type": "uint64[]"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "craft",
+            "type": "craft",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delreguserst",
+            "type": "delreguserst",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delstaket",
+            "type": "delstaket",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deluserstate",
+            "type": "deluserstate",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "farm",
+            "type": "farm",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "fullrepair",
+            "type": "fullrepair",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "rallstuckcon",
+            "type": "rallstuckcon",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "ralltokencon",
+            "type": "ralltokencon",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "ralltoolconf",
+            "type": "ralltoolconf",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "randtest",
+            "type": "randtest",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "regnewuser",
+            "type": "regnewuser",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "rstuckconfig",
+            "type": "rstuckconfig",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "rtokenconfig",
+            "type": "rtokenconfig",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "rtoolconfig",
+            "type": "rtoolconfig",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setstuckconf",
+            "type": "setstuckconf",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "settokenconf",
+            "type": "settokenconf",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "settoolconf",
+            "type": "settoolconf",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "unfarm",
+            "type": "unfarm",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdraw",
+            "type": "withdraw",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdrawtool",
+            "type": "withdrawtool",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "accounts",
+            "type": "account_entity",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "stuckconf",
+            "type": "stuckconfig",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "stucktools",
+            "type": "stucktool",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "tokenconf",
+            "type": "tokenconfig",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "toolconf",
+            "type": "toolconfig",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "tools",
+            "type": "stake_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "userstate",
+            "type": "userstate_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}
